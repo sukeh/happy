@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>教师节快乐</title>
+		<style>
+			@keyframes spin{
+				0%{transform:rotateY(0deg);}
+				20%{transform:rotateY(-72deg);}
+				40%{transform:rotateY(-144deg);}
+				60%{transform:rotateY(-216deg);}
+				80%{transform:rotateY(-288deg);}
+				100%{transform:rotateY(-360deg);}
+				
+				}
+			h3{
+				color:#0034fd;
+				text-align:center;
+				font-size:32px;
+			}
+			h1{
+				text-align:center;
+				font-size:72px;
+				font-family:'华文行楷';
+				color:#f52400;
+				text-shadow:1px 1px 16px #f3f706;
+			}
+			.stage{
+				height:600px;
+				margin:15px auto;
+				position:relative;
+				perspective:500px;
+				}
+			.container{
+				top:50%;
+				left:50%;
+				margin:-75px 0 0 -75px;
+				position:absolute;
+				border:0px solid #000;
+				transform-style:preserve-3d;
+				width:150px;
+				height:150px;
+				animation:spin 10s linear infinite;
+
+			}
+			.side{
+				background-color:rgb(15, 156, 111);
+				font-size:60px;
+				font-weight:bold;
+				color:#fff;
+				height:150px;
+				line-height:150px;
+				position:absolute;
+				text-align:center;
+				text-shadow:0 -1px 0 rgba(0,0,0,0.5);
+				width:150px;
+				
+			}
+			.one{
+				transform:translateZ(300px);
+			}
+			.two{
+				transform:rotateY(45deg) translateZ(300px);
+			}
+			.three{
+				transform:rotateY(90deg) translateZ(300px);
+			}
+			.four{
+				transform:rotateY(135deg) translateZ(300px);
+			}
+			.five{
+				transform:rotateY(180deg) translateZ(300px);
+			}
+			.six{
+				transform:rotateY(225deg) translateZ(300px);
+			}
+			.seven{
+				transform:rotateY(270deg) translateZ(300px);
+			}
+			.eight{
+				transform:rotateY(315deg) translateZ(300px);
+			}
+			
+		</style>
+	</head>
+	<body style="background-color:#cdcdcd;">
+		<h1>教师节快乐</h1>
+		<h3>难忘的校园时光，<br>是因为有着难忘的师生情怀。<br>在过去的两年中...(省略n多感谢)</h3>
+		<h3 style="color:#fd8200">祝保华老师<br>2018教师节快乐。</h3>
+		<div class="stage">
+			<div class="container">
+				<div class="side one">
+					祝
+				</div>
+				<div class="side two">
+					保华
+				</div>
+				<div class="side three">
+					教
+				</div>
+				<div class="side four">
+					师
+				</div>
+				<div class="side five">
+					节
+				</div>
+				<div class="side six">
+					快
+				</div>
+				<div class="side seven">
+					乐
+				</div>
+				<div class="side eight">
+					<img src="last.jpg" width="150px" height="150px"/>
+				</div>
+			</div>
+		</div>
+		<h4 style="text-align:center;font-size:32px;font-family:'华文行楷';margin-bottom:0px;">苏 克 豪</h4>
+		<h4 style="text-align:center;">2018-09-10</h4>
+	</body>
+</html>
